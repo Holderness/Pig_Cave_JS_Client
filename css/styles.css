@@ -1,0 +1,587 @@
+html, body {
+	min-width: 100%;
+	min-height: 100%;
+	font-family: garamond;
+}
+
+p {
+	font-size: 	17.5px;
+	text-align: left;
+}
+
+.footer {
+	position: absolute;
+	bottom: 35px;
+	font-size: 12px;
+	margin-right: 35px;
+}
+
+
+.floating{
+    float: left;
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating-Pig;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 30px);}
+    to {-webkit-transform: translate(0, 0px);}    
+}
+    
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 30px);}
+    to {-moz-transform: translate(0, 0px);}    
+}
+
+
+
+
+
+/*Slides*/
+
+
+
+#slides-container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#slides {
+	width: 200%;
+	height: 200%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 50%;
+}
+
+#slide-1 {
+	background-color: #EBF5F7;
+	z-index: 4;
+}
+
+#slide-2 {
+	background-color: #EBF2F0	;
+	-ms-transform: translate(0,100%);
+  -webkit-transform: translate(0,100%);
+  transform: translate(0,100%);
+  overflow:hidden;
+  z-index: 3;
+}
+
+#slide-3 {
+	background-color: #F0F0F5;
+	-ms-transform: translate(100%,100%);
+  -webkit-transform: translate(100%,100%);
+  transform: translate(100%,100%);
+  z-index: 2;
+}
+
+#slide-4 {
+	-ms-transform: translate(100%,0);
+  -webkit-transform: translate(100%,0);
+  transform: translate(100%,0);
+  background-image: linear-gradient(bottom, #F0F0F0 50%, #9597A6 50%);
+  background-image: -o-linear-gradient(bottom, #F0F0F0 50%, #9597A6 50%);
+  background-image: -moz-linear-gradient(bottom, #F0F0F0 50%, #9597A6 50%);
+  background-image: -webkit-linear-gradient(bottom, #F0F0F0 50%, #9597A6 50%);
+  background-image: -ms-linear-gradient(bottom, #F0F0F0 50%, #9597A6 50%);
+  z-index: 1;
+}
+
+.caption {
+	position: absolute;
+	bottom: 50%;
+	right: 50%;
+}
+
+#slide-2 .caption {
+	text-align: center;
+	width: 250px;
+	right: auto;
+	top: 520px;
+	left: 572px;
+}
+
+
+
+
+
+/* Slide 1 */
+
+
+
+#about-container {
+	background-color: #F7F7F7;
+	width: 450px;
+	height: 600px;
+	border-radius: 10%;
+	font-size: 50px;
+	float: right;
+	margin-right: 1em;
+	margin-top: 2em;
+	text-align: center;
+	box-shadow: 3px 3px 20px #888888;
+	position: relative;
+}
+
+#about {
+	margin: 0px 35px 0px 35px ;
+}
+
+#scroll-down-container {
+	background-color: #F7F7F7;
+	width: 200px;
+	height: 50px;
+	border-radius: 10%;
+	font-size: 20px;
+	left: 600px;
+	bottom: 1em;
+	text-align: center;
+	box-shadow: 3px 3px 20px #888888;
+	position: absolute;
+}
+
+#scroll-down {
+  margin: 13px;
+}
+
+#sun {
+	width: 210px;
+	height: 180px;
+	left: 50px;
+	top: 50px;
+	position: absolute;
+	background: url("/assets/sun.png");
+}
+
+#main-cloud {
+	width: 285px;
+	height: 173px;
+	position: absolute;
+	top: 450px;
+	left: 184px;
+  background: url("/assets/cloud-main.png");
+}
+
+#pig-cloud {
+	width: 420px;
+	height: 242px;
+	top: 100px;
+	left:539px;
+	position: absolute;
+	background: url("/assets/pig-cloud.png");
+}
+
+#clouds-1 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url("/assets/clouds-11.png");
+}
+
+#clouds-2 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url("/assets/clouds-22.png");
+}
+
+#clouds-3 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url("/assets/clouds-3.png");
+}
+
+
+
+
+
+/* Slide 2*/
+
+
+
+.story {
+	position: absolute;
+}
+
+#fat-owl {
+	width: 100%;
+	height: 100%;
+	top: 15px;
+	left: 102px;
+	position: absolute;
+  background: url("/assets/fat-owl.png") no-repeat;
+}
+
+#pig-tree {
+  width: 100%;
+	height: 115%;
+	top: -100px;
+	left: 225px;
+	position: absolute;
+  background: url("/assets/pig-tree2.png") no-repeat;
+}
+
+#lazers {
+	width: 99%;
+	height: 393px;
+	top: 242px;
+	left: 14px;
+	position: absolute;
+  background: url("/assets/pig-tree-lazers.png") no-repeat;
+}
+
+
+#trees {
+  width: 100%;
+	height: 110%;
+	position: absolute;
+  background: url("/assets/tree-background.png");
+  background-repeat: repeat-x;
+
+}
+
+#trees2 {
+  width: 100%;
+	height: 110%;
+	position: absolute;
+  background: url("/assets/tree-background2.png");
+  background-repeat: repeat-x;
+}
+
+
+
+
+
+
+
+/* Slide 3 */
+
+
+
+#b1 {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+  background: url("/assets/one-third.png") no-repeat;
+}
+
+#b2 {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+  background: url("/assets/two-third.png") no-repeat;
+}
+
+#b3 {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+  background: url("/assets/three-third.png") no-repeat;
+}
+
+#background {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+  background: url("/assets/3background.png") no-repeat;
+}
+
+#slide-3 .caption {
+	top: 288px;
+	left: 698px;
+	width: 421px;
+}
+
+#wing {
+	width: 100%;
+	height: 100%;
+	top: 254px;
+	left: 300px;
+	position: absolute;
+  background: url("/assets/wings.png") no-repeat;
+}
+
+#tub {
+	width: 100%;
+	height: 100%;
+	top: 254px;
+	left: 818px;
+	position: absolute;
+  background: url("/assets/tub.png") no-repeat;
+}
+
+#scuba-pig {
+	width: 100%;
+	height: 100%;
+	top: 384px;
+	left: 532px;
+	position: absolute;
+  background: url("/assets/scuba-pig.png") no-repeat;
+}
+
+#thought-bubble {
+	width: 100%;
+	height: 100%;
+	top: 238px;
+	left: 624px;
+	position: absolute;
+  background: url("/assets/thought-bubble.png") no-repeat;
+}
+
+#bandido-uno {
+  width: 100%;
+	height: 100%;
+	top: 376px;
+	left: 820px;
+	position: absolute;
+  background: url("/assets/bandido1.png") no-repeat;
+}
+
+#bandido-dos {
+  width: 100%;
+	height: 100%;
+	top: 385px;
+	left: 933px;
+	position: absolute;
+  background: url("/assets/bandido2.png") no-repeat;
+}
+
+#no-face {
+	width: 100%;
+	height: 121%;
+	top: 161px;
+	left: 0px;
+	position: absolute;
+  background: url("/assets/no-face.png") no-repeat;
+}
+
+#hand	{
+	width: 130%;
+	height: 951px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+  background: url("/assets/hand.png") no-repeat;
+}
+
+
+
+
+
+
+/* Slide 4 */
+
+
+
+#gradient4 {
+	top: 388px;
+	height: 403px;
+	width: 100%;
+	position: fixed;
+		background-image: linear-gradient(bottom, #F0F0F0 10%, #757575 80%);
+	  background-image: -o-linear-gradient(bottom, #F0F0F0 10%, #757575 80%);
+	  background-image: -moz-linear-gradient(bottom, #F0F0F0 10%, #757575 80%);
+	  background-image: -webkit-linear-gradient(bottom, #F0F0F0 10%, #757575 80%);
+	  background-image: -ms-linear-gradient(bottom, #F0F0F0 10%, #757575 80%);
+}
+
+#horizon-line4 {
+	top:316px;
+	height: 100%;
+	width:100%;
+	position: absolute;
+	background: url("/assets/horizon-line.png") no-repeat;
+}
+
+#slide-4 .caption {
+	top: 55px;
+	left: 47px;
+  width: 310px;
+}
+
+#bambi {
+	width: 100%;
+	height: 113%;
+	top: -77px;
+	left: -40px;
+	position: absolute;
+  background: url("/assets/bambi2.png") no-repeat;
+}
+
+#campfire {
+	width: 100%;
+	height: 100%;
+	top: 487px;
+	left: 815px;
+	position: absolute;
+  background: url("/assets/campfire.png") no-repeat;
+}
+
+#fat-night-owl {
+	width: 100%;
+	height: 100%;
+	top: 311px;
+	left: 665px;
+	position: absolute;
+  background: url("/assets/fat-night-owl.png") no-repeat;
+}
+
+#pig-bag1 {
+	width: 100%;
+	height: 100%;
+	top: 387px;
+	left: 1050px;
+	position: absolute;
+  background: url("/assets/pig-bag1.png")no-repeat;
+}
+
+#pig-bag2 {
+	width: 100%;
+	height: 100%;
+	top: 387px;
+	left: 1050px;
+	position: absolute;
+  background: url("/assets/pig-bag2.png") no-repeat;
+}
+
+#fly-pig {
+	width: 100%;
+	height: 100%;
+	top: 100px;
+	left: 600px;
+	position: absolute;
+  background: url("/assets/fly-pig.png") no-repeat;
+}
+
+#pig-lazer {
+	width: 100%;
+	height: 100%;
+	top: 114px;
+	left: 878px;
+	opacity: 0;
+	position: absolute;
+  background: url("/assets/pig-lazer2.png") no-repeat;
+}
+
+#stars {
+	width: 100%;
+	height: 370px;
+	position: absolute;
+  background: url("/assets/stars.png");
+}
+
+#stars1 {
+	width: 100%;
+	height: 370px;
+	position: absolute;
+  background: url("/assets/stars1.png");
+
+}
+
+#stars2 {
+	width: 100%;
+	height: 370px;
+	position: absolute;
+  background: url("/assets/stars2.png");
+}
+
+
+
+
+
+
+/* Person */
+
+
+
+
+#person-container {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	z-index: 7;
+}
+
+#person {
+	width: 180px;
+	height: 269px;
+	position: relative;
+	display: block;
+	background: url("/assets/person.png");
+	z-index: 7;
+}
+
+#possessed {
+  width: 180px;
+  height: 269px;
+  top: 1203px;
+  left: 192px;
+	position: relative;
+	background: url("/assets/possessed2.png") no-repeat;
+	z-index: 7;
+}
+
+
+
+
+/*Helpers*/
+
+
+
+#helper {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 600%;
+}
+
+.marker {
+	height: 25%;
+	width: 100%;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.yellow {
+	background-color: yellow;
+}
