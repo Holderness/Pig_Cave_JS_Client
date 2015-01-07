@@ -144,7 +144,7 @@ p {
 }
 
 #about {
-	margin: 0px 35px 0px 35px ;
+	margin: 0 35px 0 35px ;
 }
 
 #scroll-down-container {
@@ -170,7 +170,7 @@ p {
 	left: 50px;
 	top: 50px;
 	position: absolute;
-	background: url("/assets/sun.png");
+	background: url("images/sun.png");
 }
 
 #main-cloud {
@@ -179,7 +179,7 @@ p {
 	position: absolute;
 	top: 450px;
 	left: 184px;
-  background: url("/assets/cloud-main.png");
+  background: url("images/cloud-main.png");
 }
 
 #pig-cloud {
@@ -188,28 +188,28 @@ p {
 	top: 100px;
 	left:539px;
 	position: absolute;
-	background: url("/assets/pig-cloud.png");
+	background: url("images/pig-cloud.png");
 }
 
 #clouds-1 {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background: url("/assets/clouds-11.png");
+	background: url("images/clouds-11.png");
 }
 
 #clouds-2 {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background: url("/assets/clouds-22.png");
+	background: url("images/clouds-22.png");
 }
 
 #clouds-3 {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background: url("/assets/clouds-3.png");
+	background: url("images/clouds-3.png");
 }
 
 
@@ -230,7 +230,7 @@ p {
 	top: 15px;
 	left: 102px;
 	position: absolute;
-  background: url("/assets/fat-owl.png") no-repeat;
+  background: url("images/fat-owl.png") no-repeat;
 }
 
 #pig-tree {
@@ -239,7 +239,7 @@ p {
 	top: -100px;
 	left: 225px;
 	position: absolute;
-  background: url("/assets/pig-tree2.png") no-repeat;
+  background: url("images/pig-tree2.png") no-repeat;
 }
 
 #lazers {
@@ -248,7 +248,7 @@ p {
 	top: 242px;
 	left: 14px;
 	position: absolute;
-  background: url("/assets/pig-tree-lazers.png") no-repeat;
+  background: url("images/pig-tree-lazers.png") no-repeat;
 }
 
 
@@ -256,7 +256,7 @@ p {
   width: 100%;
 	height: 110%;
 	position: absolute;
-  background: url("/assets/tree-background.png");
+  background: url("images/tree-background.png");
   background-repeat: repeat-x;
 
 }
@@ -265,7 +265,7 @@ p {
   width: 100%;
 	height: 110%;
 	position: absolute;
-  background: url("/assets/tree-background2.png");
+  background: url("images/tree-background2.png");
   background-repeat: repeat-x;
 }
 
@@ -282,37 +282,37 @@ p {
 #b1 {
 	width: 100%;
 	height: 100%;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	position: absolute;
-  background: url("/assets/one-third.png") no-repeat;
+  background: url("images/one-third.png") no-repeat;
 }
 
 #b2 {
 	width: 100%;
 	height: 100%;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	position: absolute;
-  background: url("/assets/two-third.png") no-repeat;
+  background: url("images/two-third.png") no-repeat;
 }
 
 #b3 {
 	width: 100%;
 	height: 100%;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	position: absolute;
-  background: url("/assets/three-third.png") no-repeat;
+  background: url("images/three-third.png") no-repeat;
 }
 
 #background {
 	width: 100%;
 	height: 100%;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	position: absolute;
-  background: url("/assets/3background.png") no-repeat;
+  background: url("images/3background.png") no-repeat;
 }
 
 #slide-3 .caption {
@@ -327,7 +327,7 @@ p {
 	top: 254px;
 	left: 300px;
 	position: absolute;
-  background: url("/assets/wings.png") no-repeat;
+  background: url("images/wings.png") no-repeat;
 }
 
 #tub {
@@ -336,7 +336,7 @@ p {
 	top: 254px;
 	left: 818px;
 	position: absolute;
-  background: url("/assets/tub.png") no-repeat;
+  background: url("images/tub.png") no-repeat;
 }
 
 #scuba-pig {
@@ -345,7 +345,7 @@ p {
 	top: 384px;
 	left: 532px;
 	position: absolute;
-  background: url("/assets/scuba-pig.png") no-repeat;
+  background: url("images/scuba-pig.png") no-repeat;
 }
 
 #thought-bubble {
@@ -354,7 +354,7 @@ p {
 	top: 238px;
 	left: 624px;
 	position: absolute;
-  background: url("/assets/thought-bubble.png") no-repeat;
+  background: url("images/thought-bubble.png") no-repeat;
 }
 
 #bandido-uno {
@@ -363,7 +363,7 @@ p {
 	top: 376px;
 	left: 820px;
 	position: absolute;
-  background: url("/assets/bandido1.png") no-repeat;
+  background: url("images/bandido1.png") no-repeat;
 }
 
 #bandido-dos {
@@ -372,25 +372,25 @@ p {
 	top: 385px;
 	left: 933px;
 	position: absolute;
-  background: url("/assets/bandido2.png") no-repeat;
+  background: url("images/bandido2.png") no-repeat;
 }
 
 #no-face {
 	width: 100%;
 	height: 121%;
 	top: 161px;
-	left: 0px;
+	left: 0;
 	position: absolute;
-  background: url("/assets/no-face.png") no-repeat;
+  background: url("images/no-face.png") no-repeat;
 }
 
 #hand	{
 	width: 130%;
 	height: 951px;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	position: absolute;
-  background: url("/assets/hand.png") no-repeat;
+  background: url("images/hand.png") no-repeat;
 }
 
 
@@ -419,7 +419,7 @@ p {
 	height: 100%;
 	width:100%;
 	position: absolute;
-	background: url("/assets/horizon-line.png") no-repeat;
+	background: url("images/horizon-line.png") no-repeat;
 }
 
 #slide-4 .caption {
@@ -434,7 +434,7 @@ p {
 	top: -77px;
 	left: -40px;
 	position: absolute;
-  background: url("/assets/bambi2.png") no-repeat;
+  background: url("images/bambi2.png") no-repeat;
 }
 
 #campfire {
@@ -443,7 +443,7 @@ p {
 	top: 487px;
 	left: 815px;
 	position: absolute;
-  background: url("/assets/campfire.png") no-repeat;
+  background: url("images/campfire.png") no-repeat;
 }
 
 #fat-night-owl {
@@ -452,7 +452,7 @@ p {
 	top: 311px;
 	left: 665px;
 	position: absolute;
-  background: url("/assets/fat-night-owl.png") no-repeat;
+  background: url("images/fat-night-owl.png") no-repeat;
 }
 
 #pig-bag1 {
@@ -461,7 +461,7 @@ p {
 	top: 387px;
 	left: 1050px;
 	position: absolute;
-  background: url("/assets/pig-bag1.png")no-repeat;
+  background: url("images/pig-bag1.png")no-repeat;
 }
 
 #pig-bag2 {
@@ -470,7 +470,7 @@ p {
 	top: 387px;
 	left: 1050px;
 	position: absolute;
-  background: url("/assets/pig-bag2.png") no-repeat;
+  background: url("images/pig-bag2.png") no-repeat;
 }
 
 #fly-pig {
@@ -479,7 +479,7 @@ p {
 	top: 100px;
 	left: 600px;
 	position: absolute;
-  background: url("/assets/fly-pig.png") no-repeat;
+  background: url("images/fly-pig.png") no-repeat;
 }
 
 #pig-lazer {
@@ -489,21 +489,21 @@ p {
 	left: 878px;
 	opacity: 0;
 	position: absolute;
-  background: url("/assets/pig-lazer2.png") no-repeat;
+  background: url("images/pig-lazer2.png") no-repeat;
 }
 
 #stars {
 	width: 100%;
 	height: 370px;
 	position: absolute;
-  background: url("/assets/stars.png");
+  background: url("images/stars.png");
 }
 
 #stars1 {
 	width: 100%;
 	height: 370px;
 	position: absolute;
-  background: url("/assets/stars1.png");
+  background: url("images/stars1.png");
 
 }
 
@@ -511,7 +511,7 @@ p {
 	width: 100%;
 	height: 370px;
 	position: absolute;
-  background: url("/assets/stars2.png");
+  background: url("images/stars2.png");
 }
 
 
@@ -537,7 +537,7 @@ p {
 	height: 269px;
 	position: relative;
 	display: block;
-	background: url("/assets/person.png");
+	background: url("images/person.png");
 	z-index: 7;
 }
 
@@ -547,7 +547,7 @@ p {
   top: 1203px;
   left: 192px;
 	position: relative;
-	background: url("/assets/possessed2.png") no-repeat;
+	background: url("images/possessed2.png") no-repeat;
 	z-index: 7;
 }
 
