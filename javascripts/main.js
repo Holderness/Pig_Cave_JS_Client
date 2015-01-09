@@ -17,13 +17,14 @@ $(function(){
     dreamsArray = _.map(dreams.models, function(d){
       return d.attributes.dream;
     });
-  });
+  }).done(function(){
 
   thoughts.fetch({reset: true}).done(function(){
     thoughtsArray = _.map(thoughts.models, function(t){
       return t.attributes.title;
     });
   });
+ }).done(function(){
 
   story.fetch({reset: true}).done(function(){
     $.ajax({
@@ -50,6 +51,7 @@ $(function(){
         console.log("Yup");
       }
     });
+  });
   })
   .done(function(){
     $('body').click(function(){
@@ -75,6 +77,7 @@ $(function(){
       });
     });
   });
+
 
 
 
