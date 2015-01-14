@@ -522,7 +522,34 @@ p {
 /* Person */
 
 
+#fall-cloud-bottom {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url("images/fall-cloud-bottom.png") no-repeat;
+	z-index: 8;
+}
 
+#fall-cloud-top {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url("images/fall-cloud-top.png") no-repeat;
+}
+
+#transition-clouds-back {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url("images/transition-clouds-back.png") no-repeat;
+}
+
+#transition-clouds-middle {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url("images/transition-clouds-middle.png") no-repeat;
+}
 
 #person-container {
 	width: 50%;
