@@ -27,14 +27,14 @@ p {
 }
 
 @-webkit-keyframes Floatingx{
-    from {-webkit-transform:translate(0, 0px);}
-    65% {-webkit-transform:translate(0, 30px);}
+    from {-webkit-transform: translate(0, 0px);}
+    65% {-webkit-transform: translate(0, 30px);}
     to {-webkit-transform: translate(0, 0px);}    
 }
     
 @-moz-keyframes Floating{
-    from {-moz-transform:translate(0, 0px);}
-    65% {-moz-transform:translate(0, 30px);}
+    from {-moz-transform: translate(0, 0px);}
+    65% {-moz-transform: translate(0, 30px);}
     to {-moz-transform: translate(0, 0px);}    
 }
 
@@ -130,7 +130,7 @@ h7 {
 #about-container {
 	background-color: #F7F7F7;
 	width: 347px;
-	height: 541px;
+	height: 637px;
 	border-radius: 10%;
 	font-size: 20px;
 	float: left;
@@ -140,7 +140,7 @@ h7 {
 	text-align: center;
 	box-shadow: 3px 3px 20px #888888;
 	position: relative;
-	bottom: -3em;
+	bottom: -0.5em;
 }
 
 .about-p {
