@@ -1,14 +1,14 @@
 var DreamList = Backbone.Collection.extend({
 	model: Dream,
-	url: "http://192.241.243.100:3001/dreams"
+	url: "http://104.131.205.122/dreams"
 });
 
 var StoryList = Backbone.Collection.extend({
 	model: Story,
-	url: "http://192.241.243.100:3001/stories"
+	url: "http://104.131.205.122/stories"
 });
 
 var ThoughtList = Backbone.Collection.extend({
 	model: Thought,
-	url: "http://192.241.243.100:3001/thoughts"
+	url: "http://104.131.205.122/thoughts"
 });
