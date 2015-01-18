@@ -317,15 +317,6 @@ h7 {
   background: url("images/three-third.png") no-repeat;
 }
 
-#background {
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	position: absolute;
-  background: url("images/3background.png") no-repeat;
-}
-
 #slide-3 .caption {
 	top: 288px;
 	left: 698px;

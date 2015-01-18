@@ -18,17 +18,6 @@
   'something', 'tell', 'told', 'each', 'came', 'went'];
 
 
-  // var storiesArray = _.map(story.models, function(s){
-  //   return s.attributes.title;
-  // });
-  // var dreamsArray = _.map(dreams.models, function(d){
-  //   return d.attributes.dream;
-  // });
-  // var thoughtsArray = _.map(thoughts.models, function(t){
-  //   return t.attributes.title;
-  // });
-
-
   var stringToArray = function stringToArray(string){
     var wordArray = string.toLowerCase().split(/\W+/);
     var wordArrayFiltered = _.filter(wordArray, function(word) {
@@ -75,25 +64,4 @@
 var createWordArray = function createWordArray(storyArray, thoughtArray){
   return _.uniq(storyArray.concat(thoughtArray));
 };
-
-// var dreamsArray = _.map(dreams.models, function(dreamModel){
-//   return dreamModel.attributes.dream;
-// });
-
-// var thoughtsArray = _.map(thoughts.models, function(thoughtModel){
-//   return thoughtModel.attributes.title;
-// });
-
-
-// var matchDreamToWordArray = function MatchDreamToWordArray(wordArray, dreamArray){
-//   var dreamAndWordMatches = [];
-
-// }
-
-
-// ss = "hey doggy where are you I don't know nice doggy fancy doggy love camp"
-// sa = stringToArray(ss)
-// ta = ["this is a thought I am a thought doggy love camp", "wheres the party at? nice nice know I don't you", "fat daddy you're a fat daddy", "doggy fancy love camp hey nice pretty", "no words in here", "comparison for hey doggy where nice doggy fancy lady doggy love doggy"]
-// matchStoryToThought(sa, ta)
-    
 
