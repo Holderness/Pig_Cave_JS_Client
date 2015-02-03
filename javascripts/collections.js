@@ -1,14 +1,14 @@
 var DreamList = Backbone.Collection.extend({
 	model: Dream,
-	url: "http://104.131.205.122/dreams"
+	url: "http://pigcaverailsapi.herokuapp.com/dreams"
 });
 
 var StoryList = Backbone.Collection.extend({
 	model: Story,
-	url: "http://104.131.205.122/stories"
+	url: "http://pigcaverailsapi.herokuapp.com/stories"
 });
 
 var ThoughtList = Backbone.Collection.extend({
 	model: Thought,
-	url: "http://104.131.205.122/thoughts"
+	url: "http://pigcaverailsapi.herokuapp.com/thoughts"
 });
