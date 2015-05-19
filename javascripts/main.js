@@ -9,6 +9,13 @@ var rs;
 
 $(function(){
 
+  $(window).load(function() {
+    // Animate loader off screen
+    $(".loading-signal").fadeOut(1100);
+    $(".loading-pig").delay(100).fadeOut(2000);
+    $("#page-content").fadeIn(2000);
+  });
+
 	storyPainter = new StoryListView({
 		el: $('.story'),
 		collection: story
@@ -133,6 +140,8 @@ $(function(){
   $(window).resize(function(){
     window.resizeTo(size[0],size[1]);
   });
+
+
 
 
 });

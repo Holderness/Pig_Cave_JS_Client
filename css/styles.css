@@ -9,6 +9,31 @@ p {
 	text-align: left;
 }
 
+#page-content {
+  display: none;
+}
+
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.loading-pig {
+	position: fixed;
+	left: 166px;
+	top: -105px;
+	padding-bottom: 100px;
+}
+
+.loading-signal {
+	position: fixed;
+	width: 110px;
+	height: 100px;
+	z-index: 100;
+	left: 810px;
+	top:639px;
+}
+
+
+
 
 
 
